@@ -1,0 +1,23 @@
+# Ames Housing Price Prediction
+# Target environment: Python 3.14
+# Install: python3.14 -m pip install -r requirements.txt
+
+# Core data & numerics
+pandas>=3.0.6
+numpy>=2.5.3
+scipy>=1.18.1
+
+# Machine learning
+scikit-learn>=1.9.1
+joblib>=1.4.0
+
+# Visualization
+matplotlib>=3.11.2
+seaborn>=0.13.2
+
+# Notebooks / execution (optional for running .ipynb)
+nbformat>=5.11.1
+nbconvert>=7.17.1
+ipykernel>=6.29.0
+jupyter>=1.1.1
+
