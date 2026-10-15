@@ -11,7 +11,7 @@ End-to-end machine-learning pipeline that predicts residential sale prices in Am
 ## Project structure
 
 ```
-artifacts/
+Houses_Prices_Prediction/
 ├── Datasets/
 │   ├── train.csv                 # 1,460 homes with SalePrice
 │   ├── test.csv                  # 1,459 homes (no target)
@@ -22,7 +22,7 @@ artifacts/
 │       ├── X_test_selected.csv
 │       ├── y.csv / y_log.csv
 │       └── selected_features.csv
-├── Kernels/                      # Analysis notebooks (phases 01–06)
+├── KernelsUsingAI/               # Analysis notebooks (phases 01–06)
 │   ├── 01_EDA.ipynb              # Styled HTML titles, sections, callouts
 │   ├── 02_Feature_Engineering.ipynb
 │   ├── 03_Visualizing_Dashboards.ipynb
@@ -201,3 +201,8 @@ Trained models live in `Reports/models/` (`best_hgb.joblib`, `best_ridge.joblib`
 ---
 
 *Generated as part of the professional data-analysis pipeline. All notebooks (HTML-styled), processed data, models, figures, and the management deck are self-contained under this repository.*
+
+---
+
+# CreatedBy: `CHESyrian` With Help `Grok`
+
